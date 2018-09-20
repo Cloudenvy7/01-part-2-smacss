@@ -1,10 +1,8 @@
 
-nav, article, aside, footer section {
+nav, article, aside, footer {
   margin: 0 auto;
   width: 900px;
 }
-
-
 
 .authorAside {
   padding-top: 30px;
@@ -30,7 +28,7 @@ nav, article, aside, footer section {
 
 }
 
-aside button {
+.authorAside button {
   float: right;
   font-family: 'Abel', sans-serif;
   text-transform: uppercase;
@@ -42,13 +40,13 @@ aside button {
 }
 
 
-section hr {
+.hr {
   border-bottom: 1px solid #eee;
   height: 0;
 }
 
 
-footer section p{
+.footer p{
   padding: 50px 0;
   line-height: 1.5em;
   text-align: center;
